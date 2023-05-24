@@ -1,0 +1,66 @@
+p.btn{
+  background-color: orange; 
+  border-radius: 10px; 
+  padding: 5px 10px 5px 10px; 
+  margin-top: 10px; 
+  display: inline-flex;
+  background-image:none;
+}
+p.btn a{
+  color: white; 
+  font-weight: bold; 
+  font-size: smaller;
+}
+ul.pdlst{
+	list-style-type: none;
+    margin-left: unset;
+padding:unset;
+}
+ul.pdlst li{
+	padding: .5em 1em .5em 0;
+}
+ul.pdlst li a{
+	display:block;
+
+}
+ul.pdlst li a:hover{
+	text-decoration:none !important;
+	text-decoration:none !important;
+	background-color: lightgrey;
+    font-weight: bold;
+}
+ul.pdlst li a i.fa-download{
+	float: right;
+	color:darkblue;
+	margin-left:.5em
+}
+ul.pdlst li a i.fa-file-pdf{
+	color:red;
+}
+.pdm-title,.pdm-dwn{
+	display:inline-block;
+}
+.pdm-dwn{
+	float:right;
+	width:auto;
+	text-align:right;
+}
+.pdm-title{
+	max-width:75%;
+}
+.pdm-dwn span{
+	font-style:italic;
+}
+.pdbtn{
+	background-color: orange; 
+	border-radius: 10px; 
+	padding: 5px 10px 5px 10px; 
+	margin-top: 10px; 
+	display: inline-flex;
+	float:right;
+}
+.pdbtn a{
+	color: white; 
+	font-weight: bold; 
+	font-size: smaller;
+}
