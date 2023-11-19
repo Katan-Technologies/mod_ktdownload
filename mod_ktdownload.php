@@ -18,7 +18,7 @@ require_once dirname(__FILE__) . '/helper.php';
 
 $cat = $params->get('title', '1');
 $maxentries = $params->get('maxentries','1');
-$img = $params->get('ktdlimage','1');
+//$img = $params->get('ktdlimage','1');
 $ktdownload     = modKtDownloadHelper::getDownloads( $cat );
 
 require JModuleHelper::getLayoutPath('mod_ktdownload');
